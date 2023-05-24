@@ -23,14 +23,13 @@ To run the Clima app on your device or simulator, follow these steps:
 
 1. Clone or download the repository from the [Clima GitHub page](https://github.com/a7maad-ayman/Clima).
 2. Open the project in Xcode.
-3. Make sure you have the necessary dependencies and frameworks installed. You can use CocoaPods or Swift Package Manager to manage dependencies if required.
-4. Obtain an API key from [OpenWeatherMap](https://openweathermap.org) by signing up for an account and generating an API key.
-5. In the project, locate the file `Constants.swift` and replace the placeholder value of `apiKey` with your actual API key obtained from OpenWeatherMap.
-6. Build and run the Clima app on your device or simulator using Xcode.
+3. Obtain an API key from [OpenWeatherMap](https://openweathermap.org) by signing up for an account and generating an API key.
+4. In the project, locate the file `NetworkManager.swift` and replace `apiKey` with your actual API key obtained from OpenWeatherMap.
+5. Build and run the Clima app on your device or simulator using Xcode.
 
 ## Screenshots
 
-Insert screenshots of the Clima app here to showcase its interface and functionality.
+<img src="https://github.com/ITI-Swift-Project/SportsApp/assets/87352168/fcb09d21-85bf-4d21-9083-3ee4c94374b9" alt="light" width="350" height="690">  <img src="https://github.com/ITI-Swift-Project/SportsApp/assets/87352168/9b59f74e-326c-4ef4-95d1-b1709d1db708" alt="dark" width="350" height="690">
 
 ## Acknowledgments
 
@@ -41,5 +40,4 @@ The Clima app is developed based on the guidance and lessons from the Appbrewery
 
 For any inquiries or feedback, please contact [Ahmad Ayman Mansour](mailto:a7maad-ayman@gmail.com).
 
----
-Note: This is a sample README file for the Clima app. Make sure to customize it with relevant information, screenshots, and contact details before using it for your own project.
+
